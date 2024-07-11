@@ -1,10 +1,8 @@
-import os
 import pandas as pd
 # import matplotlib.pyplot as plt
 
 # get file full path
-file_path = os.path.join(os.path.dirname(__file__), 'COMBUSTIVEIS.csv')
-df = pd.read_csv(file_path)
+df = pd.read_csv('files/COMBUSTIVEIS.csv')
 print(df)
 
 # variancia dos preços por cidade e tipo de combustivel
